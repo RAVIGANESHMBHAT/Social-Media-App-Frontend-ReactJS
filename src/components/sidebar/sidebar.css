@@ -60,6 +60,11 @@ sidebarFriend {
     margin-bottom: 15px;
 }
 
+.sidebarFriendDiv {
+    display: flex;
+    align-items: center;
+}
+
 .sidebarFriendImg {
     width: 32px;
     height: 32px;

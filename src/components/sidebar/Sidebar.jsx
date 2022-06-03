@@ -58,20 +58,24 @@ export default function Sidebar() {
 
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/2.jpg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Jane Doe</span>
+            <div className="sidebarFriendDiv">
+              <img
+                className="sidebarFriendImg"
+                src="/assets/person/2.jpg"
+                alt=""
+              />
+              <span className="sidebarFriendName">Jane Doe</span>
+            </div>
           </li>
           <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Jane Doe</span>
+            <div className="sidebarFriendDiv">
+              <img
+                className="sidebarFriendImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="sidebarFriendName">Jane Doe</span>
+            </div>
           </li>
           <li className="sidebarFriend">
             <img
