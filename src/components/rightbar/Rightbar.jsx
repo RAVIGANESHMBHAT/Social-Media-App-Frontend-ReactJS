@@ -1,9 +1,5 @@
-import './rightbar.css'
+import "./rightbar.css";
 
 export default function Rightbar() {
-  return (
-      <div className='rightbar'>
-          Rightbar
-      </div>
-  )
+  return <div className="rightbar">Right bar</div>;
 }
